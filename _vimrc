@@ -26,30 +26,30 @@ if dein#load_state(s:dein_dir)
   call dein#begin(expand('~/.vim/dein'))
   call dein#add('Shougo/dein.vim')
   call dein#add('Shougo/unite.vim')
-  call dein#add('scrooloose/nerdtree')
+  " call dein#add('scrooloose/nerdtree') "フォルダ構成を表示できるプラグイン
   call dein#add('vim-airline/vim-airline')
   call dein#add('vim-airline/vim-airline-themes')
-  call dein#add('scrooloose/nerdtree')
-  call dein#add('nathanaelkane/vim-indent-guides')
+  " call dein#add('scrooloose/nerdtree')
+  " call dein#add('nathanaelkane/vim-indent-guides') "インデントに色つけ
   call dein#add('tyru/caw.vim')
   call dein#add('ConradIrwin/vim-bracketed-paste')
   "snipets
   call dein#add('Shougo/neocomplete')
   call dein#add('Shougo/neosnippet')
   call dein#add('Shougo/neosnippet-snippets')
-  " front-end
-  call dein#add('mattn/emmet-vim')
-  call dein#add('majutsushi/tagbar')
-  call dein#add('othree/yajs')
-  call dein#add('hail2u/vim-css3-syntax')
+  " " front-end
+  " call dein#add('mattn/emmet-vim')
+  " call dein#add('majutsushi/tagbar')
+  " call dein#add('othree/yajs')
+  " call dein#add('hail2u/vim-css3-syntax')
   " call dein#add('mtscout6/syntastic-local-eslint')
-  " markdown
-  call dein#add('plasticboy/vim-markdown')
-  call dein#add('glidenote/memolist.vim')
-  " for python
-  call dein#add('davidhalter/jedi-vim')
-  call dein#add('scrooloose/syntastic')
-  call dein#add('Vimjas/vim-python-pep8-indent')
+  " " markdown
+  " call dein#add('plasticboy/vim-markdown')
+  " call dein#add('glidenote/memolist.vim')
+  " " for python
+  " call dein#add('davidhalter/jedi-vim')
+  " call dein#add('scrooloose/syntastic')
+  " call dein#add('Vimjas/vim-python-pep8-indent')
   " call dein#add('andviro/flake8-vim')
   " go
   call dein#add('fatih/vim-go')
