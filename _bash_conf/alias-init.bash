@@ -44,6 +44,7 @@ fi
 alias gc='git commit'
 alias ga='git add'
 alias gd='git diff'
+alias gft='git fetch'
 alias gll='git pull'
 alias glr='git pull --recursive'
 alias gps='git push'
