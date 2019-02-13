@@ -53,6 +53,7 @@ alias gdc='git diff --cached'
 alias gdn='git diff --name-status'
 alias gl="git log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=iso"
 alias gb='git branch'
+alias gbd='git branch --merged | grep -v "*" | xargs -I % git branch -d %'
 alias gco='git checkout'
 alias gcom='git checkout master'
 alias gsh='git show'

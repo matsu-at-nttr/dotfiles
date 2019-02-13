@@ -54,6 +54,9 @@ if dein#load_state(s:dein_dir)
   " go
   call dein#add('fatih/vim-go')
   call dein#add('Shougo/unite-outline')
+  call dein#add('AndrewRadev/splitjoin.vim') " gS := structを複数行に
+  call dein#add('SirVer/ultisnips')          " ff := fmt.Printf(), lf := log.Printf()
+  call dein#add('ctrlpvim/ctrlp.vim')        " for :GoDecls.  ]] or [[
   " for window
   call dein#add('bronson/vim-trailing-whitespace')
   call dein#add('kana/vim-submode')
@@ -115,6 +118,7 @@ nnoremap <silent> ,g  :<C-u>Unite grep:. -buffer-name=search-buffer<CR>
 nnoremap <silent> ,cg :<C-u>Unite grep:. -buffer-name=search-buffer<CR><C-R><C-W><CR>
 " grep検索結果の再呼出
 nnoremap <silent> ,r  :<C-u>UniteResume search-buffer<CR>
+
 
 " indent
 filetype plugin indent on
