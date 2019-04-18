@@ -65,3 +65,6 @@ alias grc='git rebase --continue'
 alias gcp='git cherry-pick'
 alias gsb='git show-branch --current'
 
+alias gbdm='git branch --merged | grep -v "*" | xargs -I % git branch -d %'
+alias gbdmo='git branch -r --merged master | grep -v -e master -e develop | sed -e "s% *origin/%%" | xargs -I% git push --delete origin %'
+
